@@ -26,6 +26,9 @@ Approve permissions, watch your agents work, drop a file, chat with Claude — a
 
 Some studios showed off gorgeous notch companions… and never let anyone use them.
 **Coucou is the open version.** Every line of code, every animation, every sound — free to use, read, fork and remix.
+ **Windows ahora ofrece Anthropic, NVIDIA NIM y un endpoint OpenAI-compatible personalizado. NVIDIA queda preconfigurado con qwen/qwen2.5-coder-32b-instruct; las claves se guardan por proveedor en Windows Credential Manager. También admite Ollama local sin clave. Búsqueda web y PDF siguen disponibles con Anthropic; las imágenes requieren un modelo compatible con visión.**
+
+Añadí el instalador asistido build-and-install.bat e instrucciones en README.md. En Windows, con Node 20+, Rust y las herramientas de compilación MSVC instaladas, ejecútalo para compilar y abrir el instalado
 
 Meet **Mochi**: a soft little squircle with big eyes that pops out of your notch, waves hello, follows your cursor with its eyes, gets annoyed when you poke it (and dizzy if you insist), and tells you the moment Claude Code needs you.
 
@@ -62,7 +65,9 @@ Meet **Mochi**: a soft little squircle with big eyes that pops out of your notch
 3. Launch. This build isn't notarized by Apple yet, so the first time macOS says it can't verify the developer: open **System Settings → Privacy & Security**, scroll down and click **Open Anyway** (only once).
 
 ### Windows
+**Windows ahora ofrece Anthropic, NVIDIA NIM y un endpoint OpenAI-compatible personalizado. NVIDIA queda preconfigurado con qwen/qwen2.5-coder-32b-instruct; las claves se guardan por proveedor en Windows Credential Manager. También admite Ollama local sin clave. Búsqueda web y PDF siguen disponibles con Anthropic; las imágenes requieren un modelo compatible con visión.**
 
+**Añadí el instalador asistido build-and-install.bat e instrucciones en README.md. En Windows, con Node 20+, Rust y las herramientas de compilación MSVC instaladas, ejecútalo para compilar y abrir el instalado**
 The Windows installer is **temporarily unavailable**. Microsoft Defender wrongly
 flags the unsigned installer as malware; a false-positive report is under review
 at Microsoft and the installer will come back once it is cleared and signed.
